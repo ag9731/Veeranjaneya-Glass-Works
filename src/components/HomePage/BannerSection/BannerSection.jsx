@@ -79,9 +79,11 @@ export default function BannerSection() {
             Building Glass Solutions. Reliable, Professional Care at Sri
             Veeranjaneya Glass Works & Windshield Care.
           </p>
-          <button className="uppercase bg-white px-6 py-3 md:py-4 transition-all hover:bg-primary hover:text-white tracking-wider font-bold rounded text-black mb-6">
-            Contact Us
-          </button>
+          <a href="#contact" className="hover:text-gray-400">
+            <button className="uppercase bg-white px-6 py-3 md:py-4 transition-all hover:bg-primary hover:text-white tracking-wider font-bold rounded text-black mb-6">
+              Contact Us
+            </button>
+          </a>
           <div className="flex gap-4 justify-center">
             <AiFillFacebook className="cursor-pointer text-2xl md:text-3xl hover:text-primary transition-colors duration-300" />
             <AiOutlineTwitter className="cursor-pointer text-2xl md:text-3xl hover:text-primary transition-colors duration-300" />

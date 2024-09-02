@@ -52,9 +52,11 @@ export default function Header() {
 
           {/* Get A Quote Button */}
           <div className="hidden sm:block">
-            <button className="uppercase bg-primary px-4 font-bold rounded py-2 text-white hover:bg-primary-dark transition-colors duration-300">
-              Get A Quote
-            </button>
+            <a href="#contact">
+              <button className="uppercase bg-primary px-4 font-bold rounded py-2 text-white hover:bg-primary-dark transition-colors duration-300">
+                Get A Quote
+              </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -82,9 +84,11 @@ export default function Header() {
                 </li>
               ))}
               <li>
-                <button className="uppercase bg-primary px-4 font-bold rounded py-2 text-white hover:bg-primary-dark transition-colors duration-300 w-full">
-                  Get A Quote
-                </button>
+                <a href="#contact">
+                  <button className="uppercase bg-primary px-4 font-bold rounded py-2 text-white hover:bg-primary-dark transition-colors duration-300 w-full">
+                    Get A Quote
+                  </button>
+                </a>
               </li>
             </ul>
           </nav>
