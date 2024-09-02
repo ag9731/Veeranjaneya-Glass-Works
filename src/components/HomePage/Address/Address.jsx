@@ -33,7 +33,7 @@ export default function Address() {
   ];
 
   return (
-    <div className="py-12 sm:py-16 md:py-24 bg-[#f5f7fa]">
+    <div className="py-12 sm:py-16 md:py-24 bg-[#f5f7fa] mt-10">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
           {/* Left Section */}

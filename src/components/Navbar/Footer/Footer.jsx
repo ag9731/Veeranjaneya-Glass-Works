@@ -7,51 +7,52 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Location Column */}
-          <div className="space-y-4">
-            <h2 className="text-xl font-bold text-center md:text-start">
+          <div className="flex flex-col items-center md:items-start">
+            <h2 className="text-xl font-bold mb-4 text-center md:text-start">
               Location
             </h2>
-            <div className="flex items-center gap-3 justify-center flex-col md:flex-row">
-              <FaMapMarkerAlt className="text-2xl mr-2" />
+            <div className="flex items-center gap-3 mb-4">
+              <FaMapMarkerAlt className="text-2xl" />
               <p className="text-center md:text-start">
-                Sri Veeranjaneya Glass Works, Address, City, State, ZIP
+                Sy. No. 12, Pantarapalya Village Kengeri Hobli, Near Pes Nice
+                Road Toll, Bangalore 560039.
               </p>
             </div>
-            <div className="flex items-center flex-col gap-3 md:flex-row">
-              <FaPhoneAlt className="text-2xl mr-2" />
-              <p className="text-center md:text-start">+1-234-567-8901</p>
+            <div className="flex items-center gap-3 mb-4">
+              <FaPhoneAlt className="text-2xl" />
+              <p className="text-center md:text-start">9900005963/5961/5964</p>
             </div>
-            <div className="flex items-center flex-col gap-3 md:flex-row">
-              <FaEnvelope className="text-2xl mr-2" />
+            <div className="flex items-center gap-3">
+              <FaEnvelope className="text-2xl" />
               <p className="text-center md:text-start">
-                contact@veeranjaneyaglassworks.com
+                windshieldcare6@gmail.com
               </p>
             </div>
           </div>
 
           {/* Quick Links Column */}
-          <div className="space-y-4 flex flex-col justify-center items-center ">
-            <h2 className="text-xl font-bold text-center md:text-start">
+          <div className="flex flex-col items-center md:items-start">
+            <h2 className="text-xl font-bold mb-4 text-center md:text-start">
               Quick Links
             </h2>
-            <ul className="flex flex-col justify-center items-center gap-4">
+            <ul className="flex flex-col items-center gap-4">
               <li>
-                <a href="/" className="hover:text-gray-400">
+                <a href="#home" className="hover:text-gray-400">
                   Home
                 </a>
               </li>
               <li>
-                <a href="/about" className="hover:text-gray-400">
+                <a href="#about" className="hover:text-gray-400">
                   About
                 </a>
               </li>
               <li>
-                <a href="/services" className="hover:text-gray-400">
+                <a href="#services" className="hover:text-gray-400">
                   Services
                 </a>
               </li>
               <li>
-                <a href="/contact" className="hover:text-gray-400">
+                <a href="#contact" className="hover:text-gray-400">
                   Contact
                 </a>
               </li>

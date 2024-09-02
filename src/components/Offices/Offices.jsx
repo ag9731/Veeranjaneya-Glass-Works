@@ -33,7 +33,7 @@ const Offices = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 mt-5">
+    <div className="container mx-auto px-4 mt-10">
       {/* Top Section */}
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center gap-5 mb-10 sm:mb-16">
