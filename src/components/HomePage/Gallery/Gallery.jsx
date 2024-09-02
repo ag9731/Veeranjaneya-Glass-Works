@@ -43,7 +43,7 @@ export default function Gallery() {
   };
 
   return (
-    <div className="py-12 sm:py-16 md:py-24">
+    <div className="py-12 sm:py-16 md:py-24 bg-[#f5f7fa] mt-10">
       <div className="container mx-auto px-4">
         {/* Top Section */}
         <div className="flex flex-col items-center gap-5 mb-10 sm:mb-16">

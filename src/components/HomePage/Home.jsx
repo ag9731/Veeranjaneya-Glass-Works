@@ -8,6 +8,7 @@ import Contact from "./Contact/Contact";
 import Gallery from "./Gallery/Gallery";
 import Faq from "./Faq/Faq";
 import Address from "./Address/Address";
+import Offices from "../Offices/Offices";
 
 const Home = () => {
   return (
@@ -27,6 +28,9 @@ const Home = () => {
       </section>
       <section id="address">
         <Address />
+      </section>
+      <section>
+        <Offices />
       </section>
       <section id="gallery">
         <Gallery />

@@ -13,12 +13,12 @@ export default function Address() {
       icon: FaLocationDot,
       title: "Main Address",
       content:
-        "Sri Veeranjaneya Glass Works 4006, Hosakerehalli Main Road, Hosekarehalli, Bengaluru, Karnataka 560085 ·",
+        "Sy. No. 12, Pantarapalya Village Kengeri Hobli, Near Pes Nice Road Toll, Bangalore 560039.",
     },
     {
       icon: FaEnvelopeOpenText,
       title: "Email Address",
-      content: "Veeranjaneya@gmail.com",
+      content: "windshieldcare6@gmail.com",
     },
     {
       icon: FaSquareWhatsapp,
@@ -33,7 +33,7 @@ export default function Address() {
   ];
 
   return (
-    <div className="py-12 sm:py-16 md:py-24">
+    <div className="py-12 sm:py-16 md:py-24 bg-[#f5f7fa]">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-16">
           {/* Left Section */}
