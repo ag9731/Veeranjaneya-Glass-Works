@@ -62,7 +62,7 @@ const Footer = () => {
           {/* Google Map Column */}
           <div className="w-full h-64 md:h-auto">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4938692299124!2d77.52956117489242!3d12.940218587372248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f5d566e331d%3A0x750caf018064127b!2sSri%20Veeranjaneya%20Glass%20Works!5e0!3m2!1sen!2sin!4v1725209530046!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.493869229913!2d77.5295611753809!3d12.940218587372238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f5d566e331d%3A0x750caf018064127b!2sSri%20Veeranjaneya%20Glass%20Works!5e0!3m2!1sen!2sin!4v1739342462227!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}

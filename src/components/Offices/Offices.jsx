@@ -7,9 +7,10 @@ const Offices = () => {
     {
       icon: FaLocationDot,
       title: "MANGALURU",
-      address: "Behind Bhandary Height Apt Kottara Chowki Mangaluny",
+      address: "Behind Bhandary Height Apt Kottara Chowki Mangaluru",
       mobile: "9900005966/5961",
       tel: "Tel: 080-242003391",
+      email: "svgwmng@gmail.com",
     },
     {
       icon: FaLocationDot,
@@ -18,6 +19,7 @@ const Offices = () => {
         "#30/2, Site No. 55 Opp. Shiva Tayer Sagara Road Shivamogga-577204",
       mobile: "9900005962/5961",
       tel: "081-82200336",
+      email: "svgwsmg@gmail.com",
     },
     {
       title: "OUR UPCOMING BRANCHES",
@@ -91,6 +93,7 @@ const Offices = () => {
                 <p className="text-gray-700 mb-2">{office.address}</p>
                 <p className="text-gray-700 mb-2">Mobile: {office.mobile}</p>
                 <p className="text-gray-700">Tel: {office.tel}</p>
+                <p className="text-gray-700">email: {office.email}</p>
               </div>
             );
           }
